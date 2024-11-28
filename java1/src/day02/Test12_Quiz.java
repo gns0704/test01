@@ -12,7 +12,7 @@ public class Test12_Quiz {
 			for(int i=1;i<=10;i++) {
 				int n1=rnd.nextInt(10)+1;
 				int n2=rnd.nextInt(10)+1;
-				System.out.print(n1 +"+" + n2 +"=");
+				System.out.print(n1 +"rr+" + n2 +"=");
 				int n3=scan.nextInt();
 				if(n3==(n1+n2)) {
 					count++;//맞은 갯수세기
